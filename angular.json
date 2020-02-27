@@ -28,9 +28,12 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/xterm/css/xterm.css",
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "./node_modules/xterm/lib/xterm.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -124,6 +127,7 @@
           }
         }
       }
-    }},
+    }
+  },
   "defaultProject": "terralogger"
 }

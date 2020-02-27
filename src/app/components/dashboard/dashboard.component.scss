@@ -1,0 +1,45 @@
+
+.screen-box {
+  margin: 40px auto 0;
+}
+
+
+.region-container {
+  position: relative;
+  margin-top: 50px;
+  display: flex;
+  width: 300px;
+  height: 60px;
+  align-items: center;
+  border-radius: 5px;
+}
+
+select {
+  cursor: pointer;
+  /* for Firefox */
+  -moz-appearance: none;
+  /* for Chrome */
+  -webkit-appearance: none;
+}
+
+/* For IE10 */
+select::-ms-expand {
+  display: none;
+}
+
+.fa-chevron-down {
+  position: absolute;
+  right: 20px;
+  cursor: pointer;
+}
+
+.region-input-box {
+  border: none;
+  padding: 10px;
+  width: 100%;
+  margin-left: 10px;
+
+  &:focus {
+    outline: none;
+  }
+}

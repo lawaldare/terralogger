@@ -1,3 +1,4 @@
 export const environment = {
-  production: true
+  production: true,
+  baseURL: 'https://staging-terra-logger.terragonbase.com'
 };
